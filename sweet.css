@@ -1,0 +1,149 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* De aici incepe */
+.navbar {
+	position: sticky;
+	top: 0;
+	background-color: #FEE2D8;
+}
+
+a {
+	text-decoration: none;
+	color: azure;
+}
+a:hover{
+	color: #EF798A;
+}
+.candy_color {
+	color: #EF798A;
+}
+.nav-item {
+	display: inline-block;
+	margin: 15px;
+	font-size: 25px;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.line {
+	color: #EF798A;
+}
+
+body {
+	background-color: #FEE2D8;
+}
+
+section {
+	display: flex;
+	flex-direction: row;
+	
+}
+
+.lolli {
+	margin-bottom: 10px;
+}
+.pic {
+	display: flex;
+	width: 50%;
+	border-radius: 5%;
+}
+.paragraph {
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: #EF798A;
+	margin-left: 60px;
+	margin-right: 60px;
+	font-weight: lighter;
+	font-size: 20px;
+}
+.para_text {
+	line-height: 30px;
+}
+
+.museum_text {
+	color: white;
+	font-size: 60px;
+}
+.up {
+	color: #EF798A;
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-size: 30px;	
+}
+.for_margin {
+	margin-top: 60px;
+}
+@media (max-width: 800px) {
+	section {
+	  display: flex;
+	  flex-direction: column;
+	  justify-content: center;
+	  align-items: center;
+	}
+	.reverse {
+		display: flex;
+		flex-direction: column-reverse;
+		justify-content: center;
+		align-items: center;
+	  }
+	.paragraph {
+		margin-bottom: 15px;
+	}
+	.museum_text {
+		margin-top: 10px;
+		margin-bottom: 30px;
+		font-size: 50px;
+	}
+	.pic {
+		width: 400px;
+		border-radius: 30%;
+		margin-bottom: 10px;
+		margin-top: 15px ;
+	}
+	.up {
+		margin-top: -25px;
+		font-size: 25px;
+	}
+  }
